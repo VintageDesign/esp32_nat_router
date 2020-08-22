@@ -213,7 +213,7 @@ void wifi_init(const char* ssid, const char* passwd, const char* ap_ssid, const 
             .channel = 0,
             .authmode = WIFI_AUTH_WPA2_PSK,
             .ssid_hidden = 0,
-            .max_connection = 8,
+            .max_connection = 20,
             .beacon_interval = 100,
         }
     };
