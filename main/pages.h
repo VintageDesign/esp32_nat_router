@@ -32,27 +32,6 @@ setTimeout(\"location.href = '/'\",10000);\
 </table>\
 </form>\
 \
-<h2>AP Settings</h2>\
-<form action='' method='GET'>\
-<table>\
-<tr>\
-<td>SSID:</td>\
-<td><input type='text' name='ap_ssid' value='%s'/></td>\
-</tr>\
-<tr>\
-<td>Password:</td>\
-<td><input type='text' name='ap_password' value='%s'/></td>\
-</tr>\
-<tr>\
-<td></td>\
-<td><input type='submit' value='Set' /></td>\
-</tr>\
-</table>\
-<small>\
-<i>Password: </i>less than 8 chars = open<br />\
-</small>\
-</form>\
-\
 <h2>Device Management</h2>\
 <form action='' method='GET'>\
 <table>\

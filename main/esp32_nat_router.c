@@ -292,11 +292,11 @@ void app_main(void)
     }
     get_config_param_str("ap_ssid", &ap_ssid);
     if (ap_ssid == NULL) {
-        ap_ssid = param_set_default("ESP32_NAT_Router");
+        ap_ssid = param_set_default("HomeMetricsHub");
     }   
     get_config_param_str("ap_passwd", &ap_passwd);
     if (ap_passwd == NULL) {
-        ap_passwd = param_set_default("");
+        ap_passwd = param_set_default("YouLookGood69");
     }
     // Setup WIFI
     wifi_init(ssid, passwd, ap_ssid, ap_passwd);
